@@ -99,8 +99,8 @@ var Main = function() { };
 $hxClasses["Main"] = Main;
 Main.__name__ = "Main";
 Main.main = function() {
-	kha_System.start(new kha_SystemOptions("RUNZER",1280,720,new kha_WindowOptions("Obligatorio2",0,0,1920,1080,null,true,1,0),new kha_FramebufferOptions()),function(w) {
-		new com_framework_Simulation(states_StartingMenu,1280,720);
+	kha_System.start(new kha_SystemOptions("RUNZER",1280,800,new kha_WindowOptions("Obligatorio2",0,0,1280,800,null,true,1,0),new kha_FramebufferOptions()),function(w) {
+		new com_framework_Simulation(states_StartingMenu,1280,800);
 		kha_Assets.loadEverything(function() {
 		});
 	});
