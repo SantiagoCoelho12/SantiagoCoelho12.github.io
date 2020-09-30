@@ -25454,7 +25454,7 @@ states_StartingMenu.prototype = $extend(com_framework_utils_State.prototype,{
 		var instructions = new com_gEngine_display_Text(kha_Assets.fonts.ArialName);
 		instructions.x = com_gEngine_GEngine.virtualWidth * 0.4;
 		instructions.y = com_gEngine_GEngine.virtualHeight * 0.75;
-		instructions.set_text("HOW TO PLAY:\n\n-Move: W A S D \n-Hit:  Right click (Keep pressed)\n-Change Weapon:  1 2 3");
+		instructions.set_text("HOW TO PLAY:\n\n-Move: W A S D \n-Hit:  Left click (Keep pressed)\n-Change Weapon:  1 2 3");
 		this.layer.addChild(instructions);
 		this.stage.addChild(this.layer);
 	}
